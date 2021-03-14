@@ -1,0 +1,10 @@
+.posts {
+    color: black;
+    text-decoration: none;
+}
+
+.posts:hover {
+    color: black;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px -4px;
+}
