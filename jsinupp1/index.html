@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Register User</h2>
+        </div>
+        <form class="form" id="form">
+
+            <div class="form-control">
+                <label>First Name</label>
+                <input type="text" placeholder="Enter firstname" id="firstName">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Error</small>
+            </div>
+
+            <div class="form-control">
+                <label>Last Name</label>
+                <input type="text" placeholder="Enter lastname" id="lastName">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Error</small>
+            </div>
+
+            <div class="form-control ">
+                <label>Email</label>
+                <input type="email" placeholder="Enter Email" id="email">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Error</small>
+            </div>
+            <button class="btn btn-primary" id="btn">Register</button>
+            
+            
+        </form>
+    </div>
+
+    <div class="container">
+        <div id="output">
+            <div class="user">
+                <div>
+                    <h2>Firstname Lastname</h2>
+                    <small>email@hotmail.com</small>
+                </div>
+                <div>
+                    <button class="btn-green btn btn-primary" id="btn">Edit</button>
+                    <button class="btn-red btn-primary" id="btn">Remove</button>
+                </div>
+            </div>
+            <div class="user">
+                <div>
+                    <h2>Firstname Lastname</h2>
+                    <small>email@hotmail.com</small>
+                </div>
+                <div>
+                    <button class="btn-green btn btn-primary" id="btn">Edit</button>
+                    <button class="btn-red btn-primary" id="btn">Remove</button>
+                </div>
+            </div>
+            <div class="user">
+                <div>
+                    <h2>Firstname Lastname</h2>
+                    <small>email@hotmail.com</small>
+                </div>
+                <div>
+                    <button class="btn-green btn btn-primary" id="btn">Edit</button>
+                    <button class="btn-red btn-primary" id="btn">Remove</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
